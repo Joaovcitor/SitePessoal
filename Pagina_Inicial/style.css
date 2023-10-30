@@ -6,6 +6,25 @@
 
 /* BACKGROUNDS */
 
+.bar {
+  border: solid 1px #f69ef1;
+}
+
+.linguagens {
+  background-color: #000000;
+  width: 100px;
+  padding: 10px;
+}
+
+.colunaImg {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.geral {
+  background-color: #25001d;
+}
+
 .vantagens {
   display: flex;
   justify-content: center;
@@ -152,7 +171,7 @@ a {
 }
 
 .xp {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-family: "Rubik", sans-serif;
   display: flex;
   text-align: center;
@@ -180,11 +199,16 @@ p {
   border: none;
 }
 
+.myservices {
+  color: #fbff00;
+}
+
 h1,h2 {
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 22px;
   margin-bottom: 10px;
   font-family: "Playfair Display", serif;
+  text-align: center;
 }
 
 .nome_projeto {
