@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: auto;
+  text-decoration: none;
+}
+
+/* BACKGROUNDS */
+
+.vantagens {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#nome {
+  width: 180px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 25px;
+}
+
+#msg {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.servicos {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin: 0 auto;
+  /* border-bottom: dotted 1px white; */
+  margin: 20px;
+}
+
+#formulario-contato {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background: rgb(48, 27, 63);
+  background: linear-gradient(
+    0deg,
+    rgba(48, 27, 63, 1) 24%,
+    rgba(21, 14, 86, 1) 98%
+  );
+  padding: 10px;
+  border-radius: 5px;
+  width: 280px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.sobremim {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  /* margin: 20px; */
+  /* margin-top: 50px; */
+  margin-bottom: 20px;
+  background: rgb(48, 27, 63);
+  background: radial-gradient(
+    circle,
+    rgba(48, 27, 63, 1) 51%,
+    rgba(5, 3, 27, 1) 98%
+  );
+  padding: 5px;
+  /* border-radius: 10px; */
+}
+
+.coluna-projeto {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.coluna-projeto-row {
+  display: flex;
+  width: auto;
+  flex-direction: row;
+  border: none;
+}
+
+.projeto-coluna {
+  flex-direction: row;
+}
+
+.projetos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #4b004c;
+}
+/* TEXTOS */
+
+.descricao_vatagens {
+  color: rgb(0, 0, 0);
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  text-align: center;
+  font-size: 16px;
+}
+
+.myProjects {
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+}
+
+.texto-topo {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  color: #1a0b2a;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  border-bottom: dotted 3px rgb(12, 11, 44);
+}
+
+.nome {
+  color: white;
+}
+
+.new {
+  color: #07f9a2;
+}
+
+
+.descricao {
+  color: white;
+}
+
+.xp {
+  color: rgb(0, 0, 0);
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  text-align: center;
+  margin: 20px;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+  color: #1f1c0d;
+}
+
+.contato {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.texto-projeto {
+  color: rgb(255, 255, 255);
+  border: none;
+}
+
+h1,h2 {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+}
+
+.nome_projeto {
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+/* IMAGENS */
+
+img {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  flex-direction: row;
+}
+
+.img-projeto {
+  width: 200px;
+  margin-top: 20px;
+}
+
+/* BOTÕES */
+
+.enviamsg {
+  width: 120px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+  background-color: #f00065;
+  color: white;
+  margin-top: 20px;
+}
+
+.dev {
+  color: white;
+}
+
+.habilidade {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+
